@@ -17,5 +17,6 @@ resource "aws_vpc" "my-vpc" {
   tags = {
     Name  = "my-vpc"
     Env   = "qa"
+    Owner = "tester-user"
   }
 }
